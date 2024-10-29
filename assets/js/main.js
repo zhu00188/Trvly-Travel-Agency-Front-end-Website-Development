@@ -2,7 +2,7 @@
     "use strict";
 
     /* ********************************************
-        14. Background Youtube Video 
+        Background Youtube Video 
     ******************************************** */
     if($('.youtube-bg').length){
         $(".youtube-bg").YTPlayer({
