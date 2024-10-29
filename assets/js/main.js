@@ -1,21 +1,6 @@
 ;(function($){
     "use strict";
 
-    /* ********************************************
-        Background Youtube Video 
-    ******************************************** */
-    if($('.youtube-bg').length){
-        $(".youtube-bg").YTPlayer({
-            videoURL: "https://www.youtube.com/watch?v=TknrmpS4GOg&t",
-            containment: '.youtube-bg',
-            mute: true,
-            loop: true,
-            startAt: 0.1,
-            showControls: false,
-            showYTLogo: false
-        });
-    }
-
     $(document).ready(function(){
 
         /*------------------------------------------------------
