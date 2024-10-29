@@ -10,7 +10,7 @@
             containment: '.youtube-bg',
             mute: true,
             loop: true,
-            startAt: 0.5,
+            startAt: 0.1,
             showControls: false,
             showYTLogo: false
         });
