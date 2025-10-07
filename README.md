@@ -68,7 +68,7 @@ Then visit:
 
 ## 🌍 Live Demo
 
-🔗 https://zhu00188.github.io/jiaqi-zhu-trvly-travel-agency-website.github.io/
+🔗 https://zhu00188.github.io/Trvly-Travel-Agency-Front-end-Website-Development/
 
 ---
 
@@ -77,3 +77,4 @@ Then visit:
 * This is a **frontend portfolio project** designed to demonstrate UX, responsive design, and accessibility principles.
 * The code includes clear extension points for backend integration (authentication, payment APIs, email automation).
 * Focus areas: visual design, interaction flow, and clean, maintainable code structure.
+
