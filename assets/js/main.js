@@ -1,6 +1,24 @@
 ; (function ($) {
     "use strict";
 
+    // CRITICAL: Force cleanup overlay on ANY page interaction
+    $(document).ready(function () {
+        // Emergency cleanup function
+        window.forceCleanupOverlay = function () {
+            var $overlay = $('#body-overlay');
+            if ($overlay.length > 0) {
+                $overlay.removeClass('active').hide();
+                $('#search-popup').removeClass('active');
+                $('#signUp-popup').removeClass('active');
+            }
+        };
+
+        // Run cleanup immediately
+        setTimeout(window.forceCleanupOverlay, 0);
+        setTimeout(window.forceCleanupOverlay, 500);
+        setTimeout(window.forceCleanupOverlay, 1000);
+    });
+
     $(document).ready(function () {
 
         /*------------------------------------------------------
@@ -746,38 +764,102 @@
 
 
         /*------------------------------------------------------
-            Search Popup
+            Search Popup and SignUp Popup
         -------------------------------------------------------*/
-        var bodyOvrelay = $('#body-overlay');
-        var searchPopup = $('#search-popup');
+        function initializePopups() {
+            var bodyOvrelay = $('#body-overlay');
+            var searchPopup = $('#search-popup');
+            var singupPopup = $('#signUp-popup');
 
-        $(document).on('click', '#body-overlay', function (e) {
-            e.preventDefault();
-            bodyOvrelay.removeClass('active');
-            searchPopup.removeClass('active');
-        });
-        $(document).on('click', '.search', function (e) {
-            e.preventDefault();
-            searchPopup.addClass('active');
-            bodyOvrelay.addClass('active');
-        });
+            // Debug: Check for duplicate overlays
+            var overlayCount = $('[id="body-overlay"]').length;
+            if (overlayCount > 1) {
+                console.error('发现' + overlayCount + '个body-overlay元素！移除重复的...');
+                // Remove all but the first one
+                $('[id="body-overlay"]').slice(1).remove();
+                bodyOvrelay = $('#body-overlay');
+            }
+            console.log('Body overlay elements found:', overlayCount);
 
-        /*--------------------------------------------
-            signUp Popup
-        ---------------------------------------------*/
-        var bodyOvrelay = $('#body-overlay');
-        var singupPopup = $('#signUp-popup');
+            // Function to close all popups with force cleanup
+            function closeAllPopups() {
+                bodyOvrelay.removeClass('active').hide();
+                searchPopup.removeClass('active');
+                singupPopup.removeClass('active');
+            }
 
-        $(document).on('click', '#body-overlay', function (e) {
-            e.preventDefault();
-            bodyOvrelay.removeClass('active');
-            singupPopup.removeClass('active');
-        });
-        $(document).on('click', '.signUp-btn', function (e) {
-            e.preventDefault();
-            singupPopup.addClass('active');
-            bodyOvrelay.addClass('active');
-        });
+            // Function to close only search popup
+            function closeSearchPopup() {
+                searchPopup.removeClass('active');
+                // Only hide overlay if no other popup is open
+                if (!singupPopup.hasClass('active')) {
+                    bodyOvrelay.removeClass('active').hide();
+                }
+            }
+
+            // Function to close only signup popup
+            function closeSignupPopup() {
+                singupPopup.removeClass('active');
+                // Only hide overlay if no other popup is open
+                if (!searchPopup.hasClass('active')) {
+                    bodyOvrelay.removeClass('active').hide();
+                }
+            }
+
+            // Force cleanup on page load
+            closeAllPopups();
+
+            // Close signup popup when clicking its close button
+            $(document).off('click', '.signUp-popup .close-btn').on('click', '.signUp-popup .close-btn', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                closeSignupPopup();
+            });
+
+            // Close appropriate popup when clicking overlay
+            $(document).off('click', '#body-overlay').on('click', '#body-overlay', function (e) {
+                e.preventDefault();
+                if (searchPopup.hasClass('active')) {
+                    closeSearchPopup();
+                } else if (singupPopup.hasClass('active')) {
+                    closeSignupPopup();
+                }
+            });
+
+            // Close popups with ESC key - close whichever is open
+            $(document).off('keyup.popup').on('keyup.popup', function (e) {
+                if (e.keyCode === 27) { // ESC key
+                    if (searchPopup.hasClass('active')) {
+                        closeSearchPopup();
+                    } else if (singupPopup.hasClass('active')) {
+                        closeSignupPopup();
+                    }
+                }
+            });
+
+            // Open search popup
+            $(document).off('click', '.search').on('click', '.search', function (e) {
+                e.preventDefault();
+                bodyOvrelay.removeAttr('style').addClass('active').css('display', 'block');
+                searchPopup.addClass('active');
+            });
+
+            // Open signup popup
+            $(document).off('click', '.signUp-btn').on('click', '.signUp-btn', function (e) {
+                e.preventDefault();
+                bodyOvrelay.removeAttr('style').addClass('active').css('display', 'block');
+                singupPopup.addClass('active');
+            });
+        }
+
+        // Initialize popups when components are loaded
+        if (window.componentsLoaded) {
+            initializePopups();
+        } else {
+            $(document).on('componentsLoaded', function () {
+                initializePopups();
+            });
+        }
 
 
 
@@ -786,11 +868,32 @@
 
 
     $(window).on('load', function () {
+        // Force cleanup any leftover overlays with display none
+        $('#body-overlay').removeClass('active').hide();
+        $('#search-popup').removeClass('active');
+        $('#signUp-popup').removeClass('active');
+
         /*--------------------------------
             preloader
         ---------------------------------*/
-        var preLoder = $("#preloader");
-        preLoder.fadeOut(1000);
+        function hidePreloader() {
+            var preLoder = $("#preloader");
+            if (preLoder.length > 0) {
+                // Wait a bit to ensure animations are visible
+                setTimeout(function () {
+                    preLoder.fadeOut(1000);
+                }, 500);
+            }
+        }
+
+        // Wait for components to load before hiding preloader
+        if (window.componentsLoaded) {
+            hidePreloader();
+        } else {
+            $(document).on('componentsLoaded', function () {
+                hidePreloader();
+            });
+        }
 
         /*--------------------------------
             Cancel Preloader

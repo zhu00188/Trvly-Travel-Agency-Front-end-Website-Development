@@ -5,7 +5,43 @@
     }
 }
 
+@media only screen and (max-width: 1799px) {
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 80px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 17px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li {
+        padding: 0 14px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li .btn {
+        padding: 0 16px;
+    }
+}
+
 @media only screen and (max-width: 1680px) {
+
+    /* Navigation bar optimization */
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 75px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 16px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li {
+        padding: 0 13px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li .btn {
+        padding: 0 15px;
+    }
+
     .banner-slider .banner-slider-item .banner-inner .banner-cat {
         font-size: 16px;
     }
@@ -103,6 +139,19 @@
 @media only screen and (max-width: 1550px) {
     .navbar-area .nav-container .desktop-logo img {
         max-width: 115px;
+    }
+
+    /* Navigation bar optimization */
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 90px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 18px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li {
+        padding: 0 15px;
     }
 
     .sidebar-area-4 {
@@ -346,6 +395,10 @@
 
 
     /******* home 2 responsive ********/
+    .video-banner-area .video-banner-content-wrap .video-banner-content h1 {
+        font-size: 90px;
+    }
+
     .video-banner-area .video-banner-content-wrap .video-banner-content h2 {
         font-size: 70px;
     }
@@ -468,6 +521,24 @@
         padding: 50px 15px 100px 15px;
     }
 
+    /* Navigation bar optimization */
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 80px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 16px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li .btn {
+        padding: 0 18px;
+        font-size: 14px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li {
+        padding: 0 8px;
+    }
+
     .single-upconing-card .tp-price-meta {
         padding: 6px 22px 7px 28px;
     }
@@ -565,6 +636,25 @@
 
 }
 
+/* Added breakpoint for better navigation responsiveness */
+@media only screen and (max-width: 1350px) {
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 70px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 13px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+        font-size: 15px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li .btn {
+        padding: 0 16px;
+    }
+}
+
 /* Medium Layout: 1280px. */
 @media only screen and (max-width: 1280px) {
     .sidebar-area-4 {
@@ -639,16 +729,29 @@
 
 
     /****** home 1 responsive ******/
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 60px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 12px;
+    }
+
     .navbar-area .nav-container .nav-right-content ul li .btn {
-        padding: 0 15px;
+        padding: 0 14px;
+        font-size: 13px;
     }
 
     .navbar-area .nav-container .nav-right-content ul li .btn i {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .navbar-area .nav-container .nav-right-content ul li {
-        padding: 0 10px;
+        padding: 0 8px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+        font-size: 15px;
     }
 
     .single-client-review {
@@ -857,19 +960,24 @@
 
 
     .navbar-area .nav-container .desktop-logo {
-        margin-right: 60px;
+        margin-right: 40px;
     }
 
     .navbar-area .nav-container .navbar-collapse .navbar-nav li {
-        margin: 0 10px;
+        margin: 0 8px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+        font-size: 14px;
     }
 
     .navbar-area .nav-container .nav-right-content ul li {
-        padding: 0 7px;
+        padding: 0 6px;
     }
 
     .navbar-area .nav-container .nav-right-content ul li .btn {
-        padding: 0 12px;
+        padding: 0 10px;
+        font-size: 13px;
     }
 
     .btn {
@@ -970,6 +1078,10 @@
 
 
     /******* home 2 responsive ********/
+    .video-banner-area .video-banner-content-wrap .video-banner-content h1 {
+        font-size: 75px;
+    }
+
     .video-banner-area .video-banner-content-wrap .video-banner-content h2 {
         font-size: 60px;
     }
@@ -1207,6 +1319,10 @@
 
 
     /******** home 2 responsive ********/
+    .video-banner-area .video-banner-content-wrap .video-banner-content h1 {
+        font-size: 48px;
+    }
+
     .video-banner-area .video-banner-content-wrap .video-banner-content h2 {
         font-size: 36px;
     }
@@ -2105,6 +2221,19 @@
 
     .container-bg {
         margin: 0px 40px;
+    }
+
+    /* Navigation bar optimization for this range */
+    .navbar-area .nav-container .desktop-logo {
+        margin-right: 70px;
+    }
+
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+        margin: 0 14px;
+    }
+
+    .navbar-area .nav-container .nav-right-content ul li .btn {
+        padding: 0 16px;
     }
 }
 
