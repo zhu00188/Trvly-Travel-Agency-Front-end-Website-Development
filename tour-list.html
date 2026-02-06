@@ -68,25 +68,38 @@
                                 <div class="col-xl-3 col-sm-6">
                                     <label class="single-input-wrap">
                                         <i class="fa fa-calendar-minus-o"></i>
-                                        <input type="text" class="departing-date" placeholder="Departing">
-                                    </label>
-                                </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <label class="single-input-wrap tour-list-search-icon">
-                                        <i class="la la-arrow-up"></i>
-                                        <input type="text" placeholder="Price Low to High">
-                                    </label>
-                                </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <label class="single-input-wrap tour-list-search-icon">
-                                        <i class="la la-arrow-down"></i>
-                                        <input type="text" placeholder="Price High to Low">
+                                        <input type="text" class="departing-date custom-select"
+                                            placeholder="Departing Date">
                                     </label>
                                 </div>
                                 <div class="col-xl-3 col-sm-6">
                                     <label class="single-input-wrap">
-                                        <i class="fa fa-paper-plane"></i>
-                                        <input type="text" placeholder="Name (A - Z)">
+                                        <i class="fa fa-filter"></i>
+                                        <select class="select w-100 custom-select">
+                                            <option value="" disabled selected>Filter by Price</option>
+                                            <option value="low-high">Price: Low to High</option>
+                                            <option value="high-low">Price: High to Low</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="col-xl-3 col-sm-6">
+                                    <label class="single-input-wrap">
+                                        <i class="fa fa-sort"></i>
+                                        <select class="select w-100 custom-select">
+                                            <option value="" disabled selected>Sort by Name</option>
+                                            <option value="a-z">Name: A to Z</option>
+                                            <option value="z-a">Name: Z to A</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="col-xl-3 col-sm-6">
+                                    <label class="single-input-wrap">
+                                        <i class="fa fa-star"></i>
+                                        <select class="select w-100 custom-select">
+                                            <option value="" disabled selected>Sort by Rating</option>
+                                            <option value="highest">Highest Rating</option>
+                                            <option value="lowest">Lowest Rating</option>
+                                        </select>
                                     </label>
                                 </div>
                             </div>
@@ -100,7 +113,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Maldives</p>
                                         <h4 class="title"><a href="tour-details.html">Hurawalhi Island</a></h4>
-                                        <p class="content">7 Days Tour on 2 person</p>
+                                        <p class="content">7-day luxury resort experience with overwater villa,
+                                            snorkeling, and sunset cruises for 2 guests</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -115,7 +129,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Indonesia</p>
                                         <h4 class="title"><a href="tour-details.html">Bali Province</a></h4>
-                                        <p class="content">4 days 2 person</p>
+                                        <p class="content">4-day cultural adventure exploring temples, rice terraces,
+                                            and traditional dance performances for 2</p>
                                         <div class="tp-price-meta">
                                             <h2>780 <small>$</small></h2>
                                         </div>
@@ -130,7 +145,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Bangladesh</p>
                                         <h4 class="title"><a href="tour-details.html">Cox's bazar Sea Beach</a></h4>
-                                        <p class="content">4 days 4 person</p>
+                                        <p class="content">4-day family getaway to world's longest beach with seafood
+                                            dining and Buddhist temple visits for 4</p>
                                         <div class="tp-price-meta">
                                             <h2>850 <small>$</small></h2>
                                         </div>
@@ -145,7 +161,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Spain</p>
                                         <h4 class="title"><a href="tour-details.html">Barcelona city beach</a></h4>
-                                        <p class="content">3 days 2 person</p>
+                                        <p class="content">3-day urban escape featuring Gaudí architecture, tapas tours,
+                                            and Mediterranean beaches for 2</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -160,7 +177,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Africa</p>
                                         <h4 class="title"><a href="tour-details.html">Amazon Africa</a></h4>
-                                        <p class="content">5 days 2 person</p>
+                                        <p class="content">5-day wildlife safari with game drives, bush camping, and Big
+                                            Five sightings for 2 adventurers</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -175,7 +193,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Thailand</p>
                                         <h4 class="title"><a href="tour-details.html">Thailand beach</a></h4>
-                                        <p class="content">4 days 3 person</p>
+                                        <p class="content">4-day island hopping adventure with snorkeling, kayaking, and
+                                            Thai cooking class for 3 travelers</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -190,7 +209,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Bali</p>
                                         <h4 class="title"><a href="tour-details.html">Bali Province</a></h4>
-                                        <p class="content">3 days 2 person</p>
+                                        <p class="content">3-day wellness retreat with yoga sessions, spa treatments,
+                                            and organic farm-to-table meals for 2</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -205,7 +225,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">France</p>
                                         <h4 class="title"><a href="tour-details.html">France eiffel tower</a></h4>
-                                        <p class="content">1 days 2 person</p>
+                                        <p class="content">Full-day Paris highlights tour with Louvre Museum, Seine
+                                            cruise, and champagne at Eiffel Tower for 2</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>
@@ -220,7 +241,8 @@
                                     <div class="details">
                                         <p class="location"><img src="assets/img/icons/1.png" alt="map">Rome</p>
                                         <h4 class="title"><a href="tour-details.html">Colosseum, Rome</a></h4>
-                                        <p class="content">3 days 3 person</p>
+                                        <p class="content">3-day ancient Rome discovery with Vatican tours, authentic
+                                            pasta making, and Trevi Fountain for 3</p>
                                         <div class="tp-price-meta">
                                             <h2>620 <small>$</small></h2>
                                         </div>

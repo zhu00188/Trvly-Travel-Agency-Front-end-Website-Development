@@ -109,7 +109,7 @@ pre {
 }
 
 a i {
-  padding: 0 2px;
+  padding: 0;
 }
 
 img {
@@ -130,7 +130,7 @@ ol li:before {
   counter-increment: counter;
   content: counter(counter);
   font-weight: 500;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .desktop-center-item {
@@ -295,7 +295,7 @@ code {
   height: auto;
   left: 5px;
   line-height: normal;
-  padding: 15px 23px 14px;
+  padding: 16px 24px 16px;
   text-decoration: none;
   top: 5px;
   width: auto;
@@ -383,7 +383,7 @@ code {
 }
 
 .blog-pagination ul li+li {
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 .blog-pagination {
@@ -518,7 +518,7 @@ object {
     # Unit test
 ------------------------------------------*/
 .wp-link-pages a {
-  margin: 0 5px;
+  margin: 0 8px;
   -webkit-transition: .3s ease-in;
   -o-transition: .3s ease-in;
   transition: .3s ease-in;
@@ -532,7 +532,7 @@ object {
 .wp-link-pages span,
 .wp-link-pages a {
   border: 1px solid #e2e2e2;
-  padding: 5px 15px;
+  padding: 8px 16px;
   display: inline-block;
 }
 
@@ -544,7 +544,7 @@ object {
 }
 
 .wp-link-pages span:first-child {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 dl,
@@ -558,7 +558,7 @@ ul {
   border: 1px solid #e2e2e2;
   height: 50px;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 .post-password-form label {
@@ -596,7 +596,7 @@ ul {
 .btn {
   height: 52px;
   line-height: 52px;
-  padding: 0 30px;
+  padding: 0 32px;
   border-radius: 4px;
   overflow: hidden;
   position: relative;
@@ -785,7 +785,7 @@ ul {
   border-radius: 23px;
   z-index: 1;
   position: relative;
-  padding: 70px 0 69px 0;
+  padding: 72px 0 72px 0;
 }
 
 .bg-none {
@@ -896,7 +896,7 @@ ul {
 .tp-list-meta li {
   list-style: none;
   display: inline-block;
-  margin: 0 14px;
+  margin: 0 16px;
 }
 
 .tp-list-meta li i {
@@ -963,7 +963,7 @@ ul {
 
 .tp-review-meta span {
   margin-left: 10px;
-  color: #f25e00;
+  color: #c34b00;
 }
 
 .tp-review-meta span.mr-3,
@@ -1028,7 +1028,7 @@ ul {
 
 .social-icon li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 .social-icon li a {
@@ -1237,15 +1237,15 @@ ul {
 }
 
 .pd-default-100 {
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .pd-default-two {
-  padding: 92px 0 100px 0;
+  padding: 96px 0 96px 0;
 }
 
 .pd-default-3 {
-  padding: 92px 0;
+  padding: 96px 0;
 }
 
 .mg-top-92 {
@@ -1286,7 +1286,7 @@ ul {
     font-size: 14px;
     height: 50px;
     line-height: 50px;
-    padding: 0 22px;
+    padding: 0 24px;
   }
 
   .btn span i {
@@ -1538,7 +1538,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 ----------------------*/
 .breadcrumb-area {
   text-align: center;
-  padding: 186px 0 112px;
+  padding: 184px 0 112px;
   background-size: cover;
   position: relative;
 }
@@ -1605,17 +1605,17 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .breadcrumb-area.style-two {
-  padding: 188px 0 182px;
+  padding: 192px 0 184px;
 }
 
 .breadcrumb-area.style-three {
-  padding: 305px 0 0 0;
+  padding: 304px 0 0 0;
 }
 
 .breadcrumb-area.style-three .breadcrumb-inner {
   display: inline-block;
   background: #ffffff;
-  padding: 30px 110px 20px 110px;
+  padding: 32px 112px 16px 112px;
   border-radius: 49px 49px 0 0;
 }
 
@@ -1772,7 +1772,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   transition: 0.4s;
   height: 35px;
   line-height: 35px;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 .comments-area .comment-list li .single-comment-wrap .content .reply span {
@@ -1887,7 +1887,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   height: 54px;
-  padding: 0 100px 0 30px;
+  padding: 0 96px 0 32px;
 }
 
 .search-popup .search-form .submit-btn {
@@ -2053,7 +2053,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .login-register-popup .riyaqas-form-wrap {
   display: block;
   width: 100%;
-  padding: 0 55px;
+  padding: 0 56px;
 }
 
 .login-register-popup .riyaqas-form-wrap .single-input-wrap label {
@@ -2093,7 +2093,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .login-register-popup .riyaqas-form-wrap .btn-wrap .btn {
   height: 40px;
   line-height: 41px;
-  padding: 0 30px;
+  padding: 0 32px;
   border-radius: 0;
   margin-top: 0;
   margin-right: 15px;
@@ -2117,8 +2117,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .login-form-wrap {
   background: #ffffff;
-  margin: 20px 50px 20px 80px;
-  padding: 20px 30px;
+  margin: 16px 48px 16px 80px;
+  padding: 16px 32px;
   border-radius: 10px;
   position: relative;
   z-index: 5;
@@ -2153,7 +2153,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .login-form-wrap .single-input-wrap input {
   color: var(--paragraph-color);
   font-weight: 200;
-  padding: 0 51px 0 18px !important;
+  padding: 0 48px 0 16px !important;
 }
 
 .login-form-wrap .single-input-wrap input::-webkit-input-placeholder {
@@ -2219,7 +2219,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .login-form-wrap .social-wrap .social-icon li {
-  margin: 0 5px 0 0;
+  margin: 0 8px 0 0;
 }
 
 .login-form-wrap .social-wrap .social-icon li a {
@@ -2263,7 +2263,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   -moz-box-shadow: 0px 3px 13px #23397421;
   box-shadow: 0px 3px 13px #23397421;
   border-radius: 4px;
-  padding: 60px 40px;
+  padding: 64px 40px;
 }
 
 .tp-main-search .btn-yellow {
@@ -2285,7 +2285,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .tp-search-single-wrap input {
   border: 0;
-  padding: 0 25px;
+  padding: 0 24px;
   color: var(--body-color);
   height: 45px;
   font-family: var(--body-font);
@@ -2332,7 +2332,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .tp-search-single-wrap .nice-select {
   border: 0;
   background: #fff;
-  padding: 0 30px 0 18px;
+  padding: 0 32px 0 18px;
   color: #72747a;
   height: 45px;
   line-height: 43px;
@@ -2591,7 +2591,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .tp-tour-list-search-area .single-input-wrap input {
-  padding: 0 18px 0 48px;
+  padding: 0 16px 0 48px;
   border-radius: 4px;
 }
 
@@ -2823,7 +2823,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
   .navbar-area .nav-container .navbar-collapse .navbar-nav li {
     display: inline-block;
-    margin: 0 23px;
+    margin: 0 24px;
     position: relative;
   }
 
@@ -2911,7 +2911,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
     display: block;
-    padding: 5px 26px;
+    padding: 8px 24px;
     font-size: 15px;
     white-space: nowrap;
     line-height: inherit;
@@ -2923,7 +2923,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a:hover {
-    padding: 5px 26px 5px 28px;
+    padding: 8px 24px 5px 28px;
   }
 
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:first-child {
@@ -3139,7 +3139,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .nav-right-content ul li {
   display: inline-block;
   line-height: 95px;
-  padding: 0 20px;
+  padding: 0 16px;
   color: #ffffff;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -3192,7 +3192,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
   .responsive-mobile-menu .navbar-toggler {
     margin-top: 14px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 16px;
   }
 
   .responsive-mobile-menu .navbar-toggler:focus {
@@ -3269,7 +3269,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
 
   .navbar-area {
-    padding: 13px 0;
+    padding: 16px 0;
     background: #ffffff;
   }
 
@@ -3284,7 +3284,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     display: block;
     text-align: left;
     line-height: 30px;
-    padding: 6px 0;
+    padding: 8px 0;
     margin: 0 !important;
   }
 
@@ -3487,7 +3487,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .banner-slider .banner-slider-item .banner-inner .btn {
-  padding: 0 50px;
+  padding: 0 48px;
 }
 
 .banner-slider .banner-slider-item .tp-price-meta p {
@@ -3625,12 +3625,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   height: 1px;
   width: 12px;
   background: #ffffff;
-  margin: 5px 3px !important;
+  margin: 8px 0 !important;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin: 0 3px;
+  margin: 0 0;
   cursor: pointer;
 }
 
@@ -4154,7 +4154,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .banner-slider-two .banner-inner {
-  padding: 250px 140px;
+  padding: 248px 136px;
   height: 100vh;
   background-size: cover;
 }
@@ -4305,7 +4305,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-blog .single-blog-details {
-  padding: 20px 0 10px 0;
+  padding: 16px 0 10px 0;
 }
 
 .single-blog .single-blog-details .title {
@@ -4323,7 +4323,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .single-blog .tag {
   background: #007e7d;
-  padding: 0 6px 0 7px;
+  padding: 0 8px 0 8px;
   height: 25px;
   line-height: 25px;
   color: #ffffff;
@@ -4359,7 +4359,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-blog.style-two .single-blog-details {
-  padding: 20px 30px;
+  padding: 16px 32px;
 }
 
 .single-blog.style-three {
@@ -4411,7 +4411,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-blog.style-three .single-blog-details-wrap .single-blog-details {
-  padding: 20px 25px;
+  padding: 16px 25px;
 }
 
 .single-blog.style-three .single-blog-details-wrap .title,
@@ -4451,14 +4451,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .single-blog.style-four {
   position: relative;
-  padding: 20px 0;
+  padding: 16px 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  margin: 0 15px;
+  margin: 0 16px;
 }
 
 .single-blog.style-four .single-blog-details {
-  padding: 20px 30px;
+  padding: 16px 32px;
 }
 
 .single-blog.style-four:after {
@@ -4508,10 +4508,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     blog details style
 ----------------------------------------------------- */
 .tp-blockquote {
-  padding: 40px 20px 35px 90px;
+  padding: 40px 16px 32px 88px;
   position: relative;
   border-radius: 10px;
-  margin: 13px 0 20px 0;
+  margin: 16px 0 16px 0;
 }
 
 .tp-blockquote p {
@@ -4536,7 +4536,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .single-blog-post-tags a {
   background: #007e7d;
-  padding: 0 6px 0 7px;
+  padding: 0 8px 0 8px;
   height: 25px;
   line-height: 25px;
   color: #ffffff;
@@ -4672,7 +4672,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-intro.style-two {
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 .single-intro.style-two .thumb {
@@ -4711,7 +4711,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     destinations list style
 ----------------------------------------------------- */
 .single-destinations-list {
-  margin: 15px;
+  margin: 16px;
   -webkit-box-shadow: 0px 3px 9px #071C551F;
   box-shadow: 0px 3px 9px #071C551F;
   border-radius: 5px;
@@ -4852,7 +4852,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-destinations-list .details {
-  padding: 23px 30px 19px 30px;
+  padding: 24px 32px 16px 32px;
   background: #ffffff;
 }
 
@@ -4913,7 +4913,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-destinations-list.style-two .details {
-  padding: 22px 0;
+  padding: 24px 0;
   background: none;
 }
 
@@ -4936,7 +4936,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: flex !important;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 0 30px 0;
+  margin: 0 0 32px 0;
   border: 1px solid #CFD3DE;
   border-radius: 7px;
 }
@@ -4976,7 +4976,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .single-destinations-list.style-four {
   position: relative;
   min-height: 380px;
-  margin: 0 0 30px 0;
+  margin: 0 0 32px 0;
 }
 
 .single-destinations-list.style-four .blur-thumb {
@@ -5109,7 +5109,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .destinations-list-slider-bg .destinations-list-slider {
-  padding: 55px 0;
+  padding: 56px 0;
 }
 
 .destinations-slider-controls .slider-nav {
@@ -5406,7 +5406,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .single-destination-grid .details .tp-review-meta {
   background: #ffffff;
-  padding: 5px 18px;
+  padding: 8px 16px;
   border-radius: 6px;
   display: inline-block;
   margin-bottom: 14px;
@@ -5573,7 +5573,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-trip-plan .tp-price-meta {
-  padding: 12px 10px 0 10px;
+  padding: 16px 8px 0 8px;
 }
 
 .single-trip-plan .tp-price-meta p {
@@ -5622,7 +5622,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .location-details-table .btn {
-  margin: 15px 0 30px;
+  margin: 16px 0 30px;
 }
 
 /* -----------------------------------------------------
@@ -5721,14 +5721,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-gallery-area {
-  padding: 25px 0 30px 0;
+  padding: 24px 0 32px 0;
   border: 1px solid #FFFFFF;
   margin-bottom: 50px;
   border-radius: 10px;
 }
 
 .single-gallery-area .gallery-title {
-  padding: 0 30px;
+  padding: 0 32px;
 }
 
 .gallery-slider .thumb img {
@@ -5839,7 +5839,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-team .team-social li a {
-  padding: 0 10px;
+  padding: 0 8px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -5959,7 +5959,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     single-package-included style
 ----------------------------------------------------- */
 .single-package-included {
-  padding: 30px 30px 20px 30px;
+  padding: 32px 30px 20px 30px;
   border: 1px solid #CFD3DE;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -6036,7 +6036,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   -webkit-box-shadow: 0px 3px 27px #23397417;
   box-shadow: 0px 3px 27px #23397417;
   border-radius: 10px;
-  padding: 0 30px 50px 30px;
+  padding: 0 32px 50px 30px;
 }
 
 .single-host-wrap .thumb {
@@ -6162,7 +6162,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-upconing-card {
-  margin: 15px;
+  margin: 16px;
   position: relative;
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
@@ -6260,7 +6260,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   top: 70px;
   background: #ffffff;
   border-radius: 40px 0 0 40px;
-  padding: 6px 30px 7px 35px;
+  padding: 8px 32px 8px 32px;
 }
 
 .single-upconing-card .tp-price-meta h2 {
@@ -6473,7 +6473,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-package-card.style-two .thumb {
-  margin: 15px 15px 0 15px;
+  margin: 16px 15px 0 15px;
 }
 
 .single-package-card.style-two .thumb img {
@@ -6555,8 +6555,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background: #ffffff;
   -webkit-box-shadow: 0px 0px 23px #23397426;
   box-shadow: 0px 0px 23px #23397426;
-  padding: 40px 20px 15px 30px;
-  margin: 30px 20px 20px;
+  padding: 40px 16px 16px 32px;
+  margin: 32px 16px 16px;
   position: relative;
 }
 
@@ -6615,7 +6615,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .client-slider-two .client-slider-item .title-meta {
-  padding: 20px 25px;
+  padding: 16px 25px;
 }
 
 .client-slider-two .client-slider-item .title-meta p {
@@ -6633,7 +6633,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .client-slider-two .client-slider-item .details {
-  padding: 70px 10px;
+  padding: 72px 8px;
 }
 
 .client-slider-two .client-slider-item .details .tp-review-meta {
@@ -6841,7 +6841,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .tp-tabs.style-two li .btn-yellow {
   background: var(--main-color-one);
   color: #ffffff;
-  margin: 20px 0;
+  margin: 16px 0;
   border-radius: 4px;
 }
 
@@ -6869,13 +6869,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 50px 80px 100px 30px;
+  padding: 48px 80px 96px 32px;
 }
 
 .faq-tab-content .faq-details {
   background: rgba(7, 28, 85, 0.9);
   border-radius: 10px;
-  padding: 18px 30px 25px;
+  padding: 16px 30px 25px;
 }
 
 .faq-tab-content .faq-details h6 {
@@ -6966,7 +6966,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   height: 50px;
   width: 100%;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 16px;
   color: #071C55;
 }
 
@@ -7170,7 +7170,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     destinations-client-review-slider style
 ----------------------------------------------------- */
 .destinations-client-review-slider .d-client-review-slider-item {
-  margin: 0 15px;
+  margin: 0 16px;
 }
 
 .destinations-client-review-slider .slick-prev {
@@ -7196,7 +7196,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     single-input-wrap-one style
 ----------------------------------------------------- */
 .tp-form-wrap-one {
-  padding: 30px 40px 40px;
+  padding: 32px 40px 40px;
   border-radius: 10px;
 }
 
@@ -7278,7 +7278,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-input-wrap.style-two .nice-select.custom-select {
-  padding: 0 38px 0 20px;
+  padding: 0 40px 0 16px;
 }
 
 .single-input-wrap.style-two.select-style-two {
@@ -7286,7 +7286,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .contact-info {
-  padding: 45px 30px;
+  padding: 48px 32px;
 }
 
 .contact-info p {
@@ -7365,7 +7365,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .widget-instagram-feed li {
   display: inline-block;
-  margin: 0 3px 10px;
+  margin: 0 0 10px;
 }
 
 .widget-instagram-feed li a {
@@ -7451,7 +7451,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 ----------------------------------------------------- */
 .sidebar-area .widget {
   background: #FFFFFF;
-  padding: 30px 0 26px 0;
+  padding: 32px 0 26px 0;
   margin-bottom: 60px;
   border-radius: 8px;
 }
@@ -7491,7 +7491,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-weight: 300;
   border: 0;
   background: transparent;
-  padding: 0 60px 0 20px;
+  padding: 0 64px 0 16px;
   height: 50px;
   line-height: 50px;
   border-radius: 4px;
@@ -7527,7 +7527,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background: #007e7d;
   cursor: pointer;
   font-size: 18px;
-  padding: 0 16px 0 18px;
+  padding: 0 16px 0 16px;
   height: 50px;
   line-height: 54px;
   top: 0;
@@ -7600,7 +7600,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .widget-recent-post ul li {
-  padding: 20px 37px;
+  padding: 16px 37px;
   border-bottom: 1px solid #E9E9E9;
 }
 
@@ -7653,7 +7653,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .widget_tag_cloud .tagcloud a {
   background: #71747e;
-  padding: 0 6px 0 7px;
+  padding: 0 8px 0 8px;
   height: 25px;
   line-height: 25px;
   color: #ffffff;
@@ -7675,7 +7675,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     tour-list-widget style
 ----------------------------------------------------- */
 .tour-list-widget {
-  padding: 40px 30px 26px 30px !important;
+  padding: 40px 32px 24px 32px !important;
 }
 
 .single-widget-search-input-title {
@@ -7737,7 +7737,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 16px;
   background-position: 20px;
   border-radius: 4px;
 }
@@ -7747,7 +7747,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-widget-search-input input.custom-select {
-  padding: 0 20px 0 38px;
+  padding: 0 16px 0 38px;
 }
 
 .single-widget-search-input input::-webkit-input-placeholder {
@@ -7771,7 +7771,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   color: var(--paragraph-color);
   width: 100%;
   min-height: 130px;
-  padding: 15px 20px;
+  padding: 16px 16px;
   background-position: 20px;
   border-radius: 4px;
 }
@@ -7814,7 +7814,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .single-widget-search-input .nice-select.custom-select {
-  padding: 0 20px 0 38px;
+  padding: 0 16px 0 38px;
 }
 
 .single-widget-search-input .nice-select .list {
@@ -7839,7 +7839,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border-radius: 0;
   background: #ffffff;
   border: 0 !important;
-  margin: 0 10px 25px 10px;
+  margin: 0 8px 24px 8px;
 }
 
 .widget-product-sorting .slider-product-sorting .ui-slider-range {
@@ -7975,7 +7975,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .tour-details-gallery .details .all-tags a {
   background: #233974;
-  padding: 0 6px 0 7px;
+  padding: 0 8px 0 8px;
   height: 25px;
   line-height: 25px;
   color: #ffffff;
@@ -8094,7 +8094,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .newsletter-wrap .input-group-text {
-  padding: 0 22px;
+  padding: 0 24px;
   background-color: #FFFFFF;
   color: #999999;
   border: 0;
@@ -8141,7 +8141,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .newsletter-wrap.style-two .input-group-prepend {
-  margin: 10px 0 10px 18px;
+  margin: 8px 0 8px 16px;
 }
 
 .newsletter-wrap.style-two .input-group-text {
@@ -8149,7 +8149,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .newsletter-wrap.style-two input {
-  margin: 10px 20px 10px 0;
+  margin: 8px 16px 8px 0;
   height: 42px;
 }
 
@@ -8191,7 +8191,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .footer-area.style-two .footer-widget .widget_nav_menu li {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 32px;
 }
 
 .footer-area.style-two .footer-widget .widget_nav_menu li a {
@@ -8244,7 +8244,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .footer-area.style-three .footer-widget .widget_nav_menu li {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 32px;
 }
 
 .footer-area.style-three .footer-widget .widget_nav_menu li a {
@@ -8307,7 +8307,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .copyright-inner .copyright-text a i {
   color: var(--main-color-one);
-  padding: 0 3px 0 5px;
+  padding: 0 0 0 8px;
 }
 
 .copyright-inner .copyright-text a span {
