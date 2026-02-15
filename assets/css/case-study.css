@@ -15,7 +15,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #071C55 0%, #1743bd 100%);
+    background: #071C55;
     color: #fff;
     padding: 120px 0 80px;
     position: relative;
@@ -38,17 +38,7 @@ body {
     z-index: 1;
 }
 
-.project-tag {
-    display: inline-block;
-    background: rgba(0, 123, 255, 0.7);
-    padding: 8px 20px;
-    border-radius: 30px;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
+
 
 .hero-title {
     font-family: 'Playfair Display', serif;
@@ -885,12 +875,7 @@ body {
     text-align: center;
 }
 
-.hero-tags {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
+
 
 .hero-ctas {
     display: flex;
@@ -1147,11 +1132,7 @@ body {
         margin-bottom: 25px;
     }
 
-    .project-tag {
-        font-size: 10px;
-        padding: 5px 12px;
-        letter-spacing: 0.5px;
-    }
+
 
     .project-meta {
         gap: 20px;
@@ -1339,11 +1320,7 @@ body {
         margin-bottom: 25px;
     }
 
-    .project-tag {
-        font-size: 8px;
-        padding: 5px 12px;
-        letter-spacing: 0.5px;
-    }
+
 
     .project-meta {
         gap: 20px;
@@ -1687,12 +1664,7 @@ body {
 @media (max-width: 575.98px) {
 
     /* narrow phones: allow wrapping and further reduce sizes */
-    .hero-tags {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin-bottom: 4px;
-    }
+
 
     .lighthouse-scores {
         flex-wrap: wrap;
