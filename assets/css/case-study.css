@@ -820,6 +820,7 @@ body {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .cta-btn {
