@@ -82,7 +82,7 @@ body {
 
 /* Section Styles */
 .case-section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .section-bg-light {
@@ -127,14 +127,12 @@ body {
     padding: 40px;
     border-radius: 12px;
     border: 2px solid rgba(52, 78, 65, 0.15);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 }
 
 .overview-card:hover {
     transform: translateY(-5px);
     border: 2px solid rgba(52, 78, 65, 0.3);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .overview-card h3 {
@@ -265,10 +263,10 @@ body {
     gap: 30px;
     margin-bottom: 60px;
     position: relative;
-    padding: 40px;
+    padding: 10px;
     background: white;
     border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
 }
 
 .timeline-number {
@@ -318,8 +316,7 @@ body {
 .timeline-visual {
     background: #fff;
     border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,13 +335,11 @@ body {
     background: white;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 }
 
 .ds-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .ds-card-header {
@@ -378,7 +373,6 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .typography-sample h1 {
@@ -429,7 +423,6 @@ body {
     background: linear-gradient(135deg, #c84f00 0%, #f25e00 100%);
     padding: 50px;
     border-radius: 16px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
     margin-top: 50px;
     color: #fff;
 }
@@ -503,14 +496,13 @@ body {
     background: rgba(255, 255, 255, 0.6);
     border: 2px solid rgba(52, 78, 65, 0.15);
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 /* figcaption / figure helpers */
 .panel-figcaption {
     color: #787878;
     font-size: 14px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 /* CTA large variant used on mid-page CTAs */
@@ -635,7 +627,6 @@ body {
     padding: 40px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     position: relative;
     overflow: hidden;
 }
@@ -683,7 +674,6 @@ body {
     background: white;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .result-image {
@@ -726,14 +716,12 @@ body {
     padding: 40px;
     border-radius: 12px;
     border: 2px solid #e0e0e0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 }
 
 .accessibility-card:hover {
     transform: translateY(-5px);
     border: 2px solid rgba(52, 78, 65, 0.3);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .accessibility-icon {
@@ -865,7 +853,6 @@ body {
     background: #fff;
     border-radius: 12px;
     border: 2px solid rgba(52, 78, 65, 0.15);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .panel--glass {
@@ -902,7 +889,6 @@ body {
     height: auto;
     display: block;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .responsive-img {
@@ -1026,7 +1012,7 @@ body {
     text-align: center;
     color: #787878;
     font-size: 14px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 /* Muted lists used in accessibility and specs */
@@ -1043,7 +1029,6 @@ body {
     background: linear-gradient(135deg, #c84f00 0%, #f25e00 100%);
     padding: 50px;
     border-radius: 16px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
     margin-top: 50px;
 }
 
@@ -1173,7 +1158,7 @@ body {
     }
 
     .case-section {
-        padding: 50px 0;
+        padding: 25px 0;
     }
 
     .section-title {
@@ -1246,15 +1231,15 @@ body {
 
     /* User personas and info architecture - reduce padding on mobile */
     .timeline-visual {
-        padding: 15px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual>div[style*="padding: 30px"] {
-        padding: 15px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual div[style*="padding: 15px"] {
-        padding: 12px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual p {
@@ -1434,15 +1419,15 @@ body {
 
     /* User personas and info architecture - reduce padding on mobile */
     .timeline-visual {
-        padding: 15px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual>div[style*="padding: 30px"] {
-        padding: 15px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual div[style*="padding: 15px"] {
-        padding: 12px !important;
+        padding: 0px !important;
     }
 
     .timeline-visual p {
